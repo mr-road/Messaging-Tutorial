@@ -11,7 +11,7 @@ namespace Receiver
                 host.Service<Consumer>(service =>
                 {
                     service.SetServiceName("Polling Consumer");
-                    service.ConstructUsing(name => new Consumer(ConfigurationSettings.ChannelName, ConfigurationSettings.Topic, ConfigurationSettings.ControlChannelName));
+                    service.ConstructUsing(name => new Consumer(ConfigurationSettings.ChannelName));
                     service.WhenStarted(consumer => consumer.Start());
                     service.WhenContinued(consumer => consumer.Start());
                     service.WhenPaused(consumer => consumer.Pause());
