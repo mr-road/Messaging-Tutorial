@@ -1,0 +1,70 @@
+<Configuration>
+  <RecentFiles>
+    <RecentFiles>
+      <File id="C1BBB823-F12A-4462-97CA-DC82944B9E6D/f:Program.cs" caret="338" fromTop="6" />
+      <File id="C1BBB823-F12A-4462-97CA-DC82944B9E6D/f:Producer.cs" caret="631" fromTop="14" />
+    </RecentFiles>
+    <RecentEdits>
+      <File id="C1BBB823-F12A-4462-97CA-DC82944B9E6D/f:Program.cs" caret="667" fromTop="15" />
+      <File id="C1BBB823-F12A-4462-97CA-DC82944B9E6D/f:Program.cs" caret="554" fromTop="11" />
+      <File id="C1BBB823-F12A-4462-97CA-DC82944B9E6D/f:Producer.cs" caret="272" fromTop="10" />
+      <File id="C1BBB823-F12A-4462-97CA-DC82944B9E6D/f:Producer.cs" caret="166" fromTop="2" />
+      <File id="C1BBB823-F12A-4462-97CA-DC82944B9E6D/f:Program.cs" caret="338" fromTop="6" />
+      <File id="C1BBB823-F12A-4462-97CA-DC82944B9E6D/f:Producer.cs" caret="441" fromTop="14" />
+      <File id="C1BBB823-F12A-4462-97CA-DC82944B9E6D/f:Producer.cs" caret="292" fromTop="10" />
+      <File id="C1BBB823-F12A-4462-97CA-DC82944B9E6D/f:Producer.cs" caret="631" fromTop="14" />
+    </RecentEdits>
+  </RecentFiles>
+  <CompletionStatisticsManager>
+    <ItemStatistics item="CSharpCodeCompletionContext">
+      <Item value="requestMessage" priority="63" />
+      <Item value="Console`0" priority="63" />
+      <Item value="SendHelloWorld`0" priority="31" />
+      <Item value="channelName" priority="63" />
+      <Item value="channel" priority="63" />
+      <Item value="new" priority="31" />
+      <Item value="MessageQueue" priority="28" />
+      <Item value="System" priority="31" />
+      <Item value="Messaging" priority="26" />
+      <Item value="_channelName" priority="63" />
+      <Item value="QueueAccessMode`0" priority="31" />
+      <Item value="_channel" priority="31" />
+      <Item value="MessageQueueAccessControlEntry`0" priority="31" />
+      <Item value="MessageQueue`0" priority="31" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Messaging.MessageQueue">
+      <Item value="Send`0" priority="26" />
+      <Item value="QueueName" priority="26" />
+      <Item value="SetPermissions`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Console">
+      <Item value="ReadKey`0" priority="26" />
+      <Item value="ReadLine`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Messaging.MessageQueue">
+      <Item value="Exists`0" priority="26" />
+      <Item value="Create`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Messaging.QueueAccessMode">
+      <Item value="Send" priority="26" />
+    </ItemStatistics>
+  </CompletionStatisticsManager>
+  <NAntValidationSettings>
+    <NAntPath value="" />
+  </NAntValidationSettings>
+  <UnitTestRunner>
+    <Providers />
+  </UnitTestRunner>
+  <UnitTestRunnerNUnit>
+    <NUnitInstallDir IsNull="False">
+    </NUnitInstallDir>
+    <UseAddins>Never</UseAddins>
+  </UnitTestRunnerNUnit>
+  <SettingsComponent>
+    <string />
+    <integer />
+    <boolean>
+      <setting name="SolutionAnalysisEnabled">False</setting>
+    </boolean>
+  </SettingsComponent>
+</Configuration>
