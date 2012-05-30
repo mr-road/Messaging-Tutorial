@@ -1,0 +1,18 @@
+﻿Code version: 6.0.2202.688
+Assembly name System.Messaging, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a mvid {f7da970c-bf73-4030-9afb-496473410691}
+* ref mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+  mvid {5e95c5cc-e33a-4c5b-8907-30a2d31e1274}
+* ref System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+  mvid {002dee12-5430-4108-9e7d-1a108ae6b486}
+* ref System.Configuration.Install, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+  mvid {3beec877-7614-472f-af4d-964d89578282}
+* ref System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+  mvid {0ccb5d59-3eb3-4eea-82e7-ab3831668579}
+* ref System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+  mvid {6fcb79aa-d738-47c0-a13f-5e5eab1ef824}
+* ref System.DirectoryServices, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+  mvid {9ebe8eaa-b3ab-427d-8406-7bb49806ec92}
+* ref System.Transactions, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+  mvid {65cfb67b-aea1-49c7-92dc-f4660ca28fc2}
+* ref System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+  mvid {1a884760-2d4c-4389-95d8-a0f851561f62}

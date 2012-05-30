@@ -1,0 +1,4 @@
+<Modules>
+  <Module PersistentId="C1BBB823-F12A-4462-97CA-DC82944B9E6D" ModuleId="Sender" />
+  <Module PersistentId="System.Messaging, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" ModuleId="System.Messaging" />
+</Modules>
