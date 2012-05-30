@@ -12,9 +12,14 @@ namespace Receiver
         public Consumer(string channelName)
         {
             //We need to identify how the message is formatted - xml is the default
-			
+			if(!MessageQueue.Exists(channelName))
+			{
+				Console.WriteLine("Channel named {0} does not exist. Press key to end.", channelName);
+				Console.ReadKey();
+			}
 
-            _channel = new MessageQueue(channelName) {Formatter = new XmlMessageFormatter(new[] {typeof (string)})};
+
+        	_channel = new MessageQueue(channelName) {Formatter = new XmlMessageFormatter(new[] {typeof (string)})};
             //We want to trace message headers such as correlation id, so we need to tell MSMQ to retrieve those
             _channel.MessageReadPropertyFilter.SetAll();
             //TODO: Set up a callback for the recieve completed event that calls the Consume method
